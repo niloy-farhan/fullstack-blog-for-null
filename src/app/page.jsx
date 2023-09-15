@@ -1,8 +1,11 @@
 import styles from "./homepage.module.css";
 import Link from "next/link";
+import Footer from "@/components/footer/footer"
+import Navbar from "@/components/navbar/navbar"
 
 export default function Home() {
   return <div>
-  <Link href="/">Hello</Link>
+      <Navbar/>
+      <Footer/>
   </div>;
 }
