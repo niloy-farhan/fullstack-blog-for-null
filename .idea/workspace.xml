@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adfefef5-6e1d-4461-855f-08433283ddb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/BUILD_ID" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/app-build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/app-path-routes-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/export-marker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/images-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/next-server.js.nft.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/required-server-files.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/routes-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-blog" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +35,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/next-blog" />
+      <recent name="$PROJECT_DIR$/next-blog/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +55,7 @@
       <workItem from="1694020285674" duration="5382000" />
       <workItem from="1694439106540" duration="256000" />
       <workItem from="1694439365616" duration="1376000" />
-      <workItem from="1694774644621" duration="777000" />
+      <workItem from="1694774644621" duration="2263000" />
     </task>
     <servers />
   </component>
