@@ -5,12 +5,12 @@ import {useContext} from "react";
 import {ThemeContext} from "@/context/ThemeContext";
 const ThemeToggle = () => {
 
-    const {theme} = useContext(ThemeContext)
+    const {toggle, theme} = useContext(ThemeContext)
 
     console.log(theme)
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} onClick={toggle}>
 
         <Image className={styles.margin} src="/moon.png" alt="dark mode" width={23} height={23} />
         <div className={styles.ball}></div>
