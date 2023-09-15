@@ -33,18 +33,17 @@ a{
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rebeccapurple;
     padding-left: 80px;
     padding-right: 80px;
 }
 
 @media screen and (max-width:1536px) {
     .wrapper {
-        max-width: 1366px;
+        max-width: 1166px;
     }
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1366px) {
     .wrapper {
         max-width: 1024px;
     }
