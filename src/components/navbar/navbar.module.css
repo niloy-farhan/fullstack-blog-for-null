@@ -25,3 +25,7 @@
     flex: 1;
     gap: 20px;
 }
+
+.toggle {
+    margin-bottom: 40px;
+}

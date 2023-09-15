@@ -1,14 +1,22 @@
-
+"use client"
 import styles from "./themeToggle.module.css";
 import Image from "next/image";
+import {useContext} from "react";
+import {ThemeContext} from "@/context/ThemeContext";
 const ThemeToggle = () => {
-    return <div className={styles.container}>
 
-        <Image className={styles.margin} src="/moon.png" alt="dark mode" width={24} height={24} />
+    const {theme} = useContext(ThemeContext)
+
+    console.log(theme)
+
+    return (
+        <div className={styles.container}>
+
+        <Image className={styles.margin} src="/moon.png" alt="dark mode" width={23} height={23} />
         <div className={styles.ball}></div>
-        <Image className={styles.margin} src="/sun.png" alt="light mode" width={24} height={24} />
-
-    </div>;
+        <Image className={styles.margin} src="/sun.png" alt="light mode" width={23} height={23} />
+    </div>
+);
 };
 
 export default ThemeToggle;
