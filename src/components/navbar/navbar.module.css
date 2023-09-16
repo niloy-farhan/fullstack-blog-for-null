@@ -55,6 +55,7 @@
     .logo {
         font-size: 28px;
     }
+
     .link {
         font-size: 14px;
         gap: 12px;
@@ -63,6 +64,7 @@
 
 
 @media screen and (max-width: 640px) {
+
     .links {
         display: none;
     }
