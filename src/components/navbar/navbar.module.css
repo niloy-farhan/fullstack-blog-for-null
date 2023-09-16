@@ -13,20 +13,50 @@
 
 .logo{
     flex: 1;
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     font-weight: bold;
 }
 
 
 .link {
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     flex: 1;
     gap: 20px;
 }
 
-.toggle {
-    margin-bottom: 40px;
+
+@media screen and (max-width: 1280px) {
+    .logo {
+        font-size: 30px;
+    }
+    .link {
+        font-size: 15px;
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .social {
+        display: none;
+    }
+    .logo {
+        text-align: left;
+    }
+    .link {
+        font-size: 16px;
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        font-size: 28px;
+    }
+    .link {
+        font-size: 14px;
+        gap: 12px;
+    }
 }
