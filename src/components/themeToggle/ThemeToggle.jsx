@@ -10,10 +10,27 @@ const ThemeToggle = () => {
     console.log(theme)
 
     return (
-        <div className={styles.container} onClick={toggle}>
+        <div
+            className={styles.container}
+            onClick={toggle}
+
+            style={
+            theme !== "dark"
+                ?{backgroundColor: "white"}
+                :{backgroundColor:"black"}
+            }
+        >
 
         <Image className={styles.margin} src="/moon.png" alt="dark mode" width={23} height={23} />
-        <div className={styles.ball}></div>
+        <div
+            className={styles.ball}
+            style={
+                theme !== "dark"
+                    ?{left: 1, backgroundColor: "black"}
+                    :{right: 1, backgroundColor:"white"}
+            }
+
+        ></div>
         <Image className={styles.margin} src="/sun.png" alt="light mode" width={23} height={23} />
     </div>
 );
