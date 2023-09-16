@@ -24,7 +24,8 @@ a{
 }
 
 .light{
-    --bg: #1d1d20;
+    /*--bg: #1d1d20;*/
+    --bg: black;
     --textColor: #ededed;
     --softBg: #1f273a;
     --softTextColor: #абаба6;
