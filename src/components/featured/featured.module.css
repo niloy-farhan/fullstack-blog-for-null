@@ -13,16 +13,29 @@
     text-align: center;
     margin-top: 20px;
     color: grey;
+    margin-bottom: 20px;
 }
 
 .buttn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
+    height: 40px;
     border: 1px solid white;
-    margin-botton: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
 }
+
+.buttn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+
 
 @media screen and (max-width: 1280px) {
     .fh1{
@@ -54,7 +67,11 @@
         -webkit-line-clamp: 4;
                 line-clamp: 4;
         -webkit-box-orient: vertical;
-        margin-bottom: 20px;
+
+    }
+
+    .buttn {
+        height: 35px;
     }
 }
 
@@ -66,4 +83,5 @@
         font-size: 35px;
 
     }
+
 }
