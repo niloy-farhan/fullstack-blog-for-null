@@ -32,7 +32,7 @@ const CategoryList = () =>  {
 
                 <Link href="/blog?cat=style" className={`${styles.category} ${styles.infiltration}`}>
                     <Image
-                        src="/style.png"
+                        src="/infiltration.png"
                         alt="infiltrations"
                         width={32}
                         height={32}

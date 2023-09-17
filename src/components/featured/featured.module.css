@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 60px;
     border: 1px solid var(--strtextColor);
     margin-bottom: 40px;
     font-size: 14px;
@@ -94,10 +94,6 @@
         -webkit-box-orient: vertical;
 
     }
-
-    .buttn {
-        height: 35px;
-    }
 }
 
 
@@ -107,6 +103,11 @@
         margin-top: 10px;
         font-size: 35px;
 
+    }
+
+    .buttn {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }
