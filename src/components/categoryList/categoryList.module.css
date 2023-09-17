@@ -1,5 +1,4 @@
 .container {
-    /* Add your container styles here */
 }
 
 .title {
@@ -8,7 +7,7 @@
 
 .categories {
     display: flex;
-    flex-wrap: wrap; /* Correct the typo 'flex-warp' to 'flex-wrap' */
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
@@ -17,7 +16,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 80px;
+    height: 70px;
     justify-content: center;
     border-radius: 10px;
     border: 1px solid var(--strtextColor);
