@@ -3,7 +3,7 @@
     border-radius: 7px;
     margin-bottom: 20px;
     padding: 20px;
-    border: 0.01px solid white;
+    border: 0.01px solid var(--strtextColor);
 }
 
 .title {
@@ -29,7 +29,7 @@
     border-radius: 10px;
     text-align: center;
     height: 35px;
-    color: var(--textColor);
+    color: var(--textColor2);
     background-color: #1a1a1a;
     cursor: pointer;
     padding: 0;
