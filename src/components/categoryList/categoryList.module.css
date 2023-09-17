@@ -1,0 +1,24 @@
+.container {
+
+}
+
+.title {
+    margin:
+}
+
+.categories {
+    display: flex;
+    flex-warp: warp;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    border-radius: 50%;
+}
