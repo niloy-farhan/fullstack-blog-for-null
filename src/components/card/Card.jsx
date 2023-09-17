@@ -4,9 +4,9 @@ import Image from "next/image";
 const Card = () => {
     return (
 
-                <article className={styles.blogPost}>
-                    <h2 className={styles.blogpostTitle} >feature 1</h2>
-                    <p className={styles.blogpostDate} >January 1, 2021</p>
+                <article className={styles.post}>
+                    <h2 className={styles.title} >feature 1</h2>
+                    <p className={styles.date} >January 1, 2021</p>
                     <p className={styles.blogpostContent} >
                         The website offers a variety of articles
                         and tutorials on different programming
