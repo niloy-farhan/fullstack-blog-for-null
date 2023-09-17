@@ -3,7 +3,7 @@
 }
 
 .title {
-    margin:
+    margin: 50px 0;
 }
 
 .categories {
@@ -17,8 +17,37 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 15%;
+    height: 80px;
+    justify-content: center;
+    border-radius: 10px;
+    border:1px solid white;
 }
 
 .image {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .category{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .category{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .category{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .category{
+        width: 100%;
+    }
 }
