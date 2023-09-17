@@ -7,7 +7,8 @@ const Footer = () => {
         <div className={styles.container}>
             <div className={styles.info}>
                     <h1 className={styles.logo}>null</h1>
-                    <p className={styles.text}>Thank you for visiting our website! We appreciate your interest and hope you found what you were looking for. If you have any questions or feedback, please don't hesitate to contact us. We look forward to serving you again soon!</p>
+                <p className={styles.text}>The feeling of unhappiness is so much easier to convey than that of happiness. In misery we seem aware of our own existence, even though it may be in the form of a monstrous egotism: this pain of mine is individual, this nerve that winces belongs to me and to no other. But happiness annihilates us: we lose our identity.</p>
+                <strong className={styles.text}>| fernando pessoa</strong>
             </div>
 
             <div className={styles.links}>
