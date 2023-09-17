@@ -2,7 +2,7 @@
 .post {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid white;
+    border: 0.01px solid white;
 }
 
 .title {
@@ -19,4 +19,22 @@
 .content {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.button {
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    color: var(--textColor);
+    background-color: #1a1a1a;
+    cursor: pointer;
+    padding: 0;
+    border: 0px solid var(--textColor2);
+}
+
+.button:hover {
+    background-color: #6666;
 }

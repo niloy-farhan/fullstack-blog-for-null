@@ -1,11 +1,16 @@
 import styles from "./card.module.css";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const Card = () => {
     return (
 
                 <article className={styles.post}>
-                    <h2 className={styles.title} >feature 1</h2>
+                    <Link href="/">
+                        <h2 className={styles.title} >feature 1</h2>
+                    </Link>
+
                     <p className={styles.date} >January 1, 2021</p>
                     <p className={styles.blogpostContent} >
                         The website offers a variety of articles
@@ -18,6 +23,7 @@ const Card = () => {
                         practice problems, which are accompanied
                         by detailed solutions and explanations.
                     </p>
+                    <button className={styles.button}><span><a href={"/"}>read more</a></span></button>
                 </article>
 
     );
