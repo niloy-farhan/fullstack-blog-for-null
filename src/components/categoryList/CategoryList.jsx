@@ -10,24 +10,24 @@ const CategoryList = () =>  {
             <div className={styles.categories}>
                 <Link href="/blog?cat=style" className={`${styles.category} ${styles.thoughts}`}>
                     <Image
-                        src="/style.png"
-                        alt="thoughts"
+                        src="/thought.jpg"
+                        alt="thought"
                         width={32}
                         height={32}
                         className={styles.image}
                     />
-                    thoughts
+                    thoughts&zwnj;
                 </Link>
 
                 <Link href="/blog?cat=style" className={`${styles.category} ${styles.articles}`}>
                     <Image
-                        src="/style.png"
+                        src="/article.jpg"
                         alt="articles"
                         width={32}
                         height={32}
                         className={styles.image}
                     />
-                    articles
+                      articles
                 </Link>
 
                 <Link href="/blog?cat=style" className={`${styles.category} ${styles.infiltration}`}>
@@ -41,9 +41,9 @@ const CategoryList = () =>  {
                     infiltration
                 </Link>
 
-                <Link href="/blog?cat=style" className={`${styles.category} ${styles.programs}`}>
+                <Link href="/blog?cat=style" className={`${styles.category} ${styles.physics}`}>
                     <Image
-                        src="/style.png"
+                        src="/physics.jpg"
                         alt="programs"
                         width={32}
                         height={32}
@@ -54,7 +54,7 @@ const CategoryList = () =>  {
 
                 <Link href="/blog?cat=style" className={`${styles.category} ${styles.projeccts}`}>
                     <Image
-                        src="/style.png"
+                        src="/projects.jpg"
                         alt=""
                         width={32}
                         height={32}
