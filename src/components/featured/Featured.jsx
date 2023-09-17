@@ -12,7 +12,7 @@ const Featured = () =>  {
                 </p>
             </div>
             <div className={styles.buttn}>
-                <buton className={styles.butx}><span>more about me</span></buton>
+                <buton className={styles.butx}><span><a href={"/about-me"}>more about me</a></span></buton>
             </div>
 
         </div>
