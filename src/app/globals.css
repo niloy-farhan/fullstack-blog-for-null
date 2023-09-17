@@ -1,7 +1,7 @@
 :root{
     --bg:white;
     --textColor:black;
-    --textColor2: grey;
+    --textColor2: rgb(102, 102, 102);
     --strtextColor: black;
     --softBg: #f0f0f0;
     --softTextColor: #626262;

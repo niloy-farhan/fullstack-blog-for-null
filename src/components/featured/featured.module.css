@@ -13,7 +13,7 @@
 .fp {
     text-align: center;
     margin-top: 20px;
-    color: grey;
+    color: var(--textColor2);
     margin-bottom: 20px;
 }
 
@@ -35,7 +35,7 @@
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .button span:after {
@@ -43,12 +43,12 @@
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
-    transition: 0.4s;
+    right: -30px;
+    transition: 0.3s;
 }
 
 .buttn:hover span {
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 
@@ -57,7 +57,7 @@
 .buttn:hover{
     background-color: var(--strtextColor);
     color: var(--bg);
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 
