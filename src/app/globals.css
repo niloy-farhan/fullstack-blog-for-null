@@ -1,6 +1,8 @@
 :root{
     --bg:white;
     --textColor:black;
+    --textColor2: grey;
+    --strtextColor: black;
     --softBg: #f0f0f0;
     --softTextColor: #626262;
 }
@@ -27,6 +29,8 @@ a{
     /*--bg: #1d1d20;*/
     --bg: black;
     --textColor: #ededed;
+    --textColor2: grey;
+    --strtextColor: white;
     --softBg: #1f273a;
     --softTextColor: #абаба6;
 }

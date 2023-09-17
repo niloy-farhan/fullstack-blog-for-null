@@ -5,8 +5,9 @@
 
 }
 
+
 .str {
-    color: white;
+    color: var(--strtextColor)
 }
 
 .fp {
@@ -21,7 +22,7 @@
     justify-content: center;
     align-items: center;
     height: 40px;
-    border: 1px solid white;
+    border: 1px solid var(--strtextColor);
     margin-bottom: 40px;
     font-size: 14px;
     margin-left: 100px;
@@ -29,10 +30,34 @@
     cursor: pointer;
 }
 
+
+.buttn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.buttn:hover span {
+    padding-right: 25px;
+}
+
+
+
+
 .buttn:hover{
-    background-color: white;
-    color: black;
-    transition: all 0.5s;
+    background-color: var(--strtextColor);
+    color: var(--bg);
+    transition: all 0.4s;
 }
 
 
