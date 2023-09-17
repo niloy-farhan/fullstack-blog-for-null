@@ -1,5 +1,5 @@
 .container {
-
+    /* Add your container styles here */
 }
 
 .title {
@@ -8,7 +8,7 @@
 
 .categories {
     display: flex;
-    flex-warp: warp;
+    flex-wrap: wrap; /* Correct the typo 'flex-warp' to 'flex-wrap' */
     justify-content: space-between;
     gap: 20px;
 }
@@ -17,37 +17,38 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 15%;
     height: 80px;
     justify-content: center;
     border-radius: 10px;
-    border:1px solid white;
+    border: 1px solid var(--strtextColor);
+    width: 15%;
 }
 
 .image {
     border-radius: 50%;
 }
 
+/* Media Queries for Different Screen Sizes */
 @media screen and (max-width: 1280px) {
-    .category{
+    .category {
         width: 20%;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .category{
+    .category {
         width: 25%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .category{
+    .category {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .category{
+    .category {
         width: 100%;
     }
 }
