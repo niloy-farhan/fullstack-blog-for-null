@@ -4,7 +4,7 @@
     --textColor2: rgb(102, 102, 102);
     --strtextColor: black;
     --softBg: #f0f0f0;
-    --hbrtextColor: rgba(0,0,0, .9);
+    --hbrtextColor: #1a1a1a;
     --softTextColor: #626262;
 }
 
@@ -28,11 +28,12 @@ a{
 
 .light{
     /*--bg: #1d1d20;*/
+    --hbrtextColor: #6666;
     --bg: black;
     --textColor: #ededed;
     --textColor2: grey;
     --strtextColor: white;
-    --hbrtextColor: rgba(255,255,255, .9);
+
     --softBg: #1f273a;
     --softTextColor: #абаба6;
 }
