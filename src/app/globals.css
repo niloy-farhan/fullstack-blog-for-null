@@ -6,13 +6,13 @@
     --softBg: #f0f0f0;
     --hbrtextColor: #1a1a1a;
     --softTextColor: #626262;
+
 }
 
 * {
     padding: 0;
     margin: 0;
     boxt-sizing: border-box;
-
 }
 
 

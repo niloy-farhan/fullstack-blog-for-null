@@ -1,0 +1,38 @@
+.container{
+    clear: both;
+    margin: 0 auto;
+    border-top: .1px solid var(--textColor2);
+    justify-content: space-between;
+    display: flex;
+}
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin: 20px 0 0 50px;
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 13px 0 0 50px;
+    color: var(--textColor2);
+    font-size: 14px;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 300;
+}

@@ -13,7 +13,6 @@ export default function Home() {
     <CategoryList/>
     <div className={styles.container}>
       <CardList/>
-      <Menu/>
     </div>
 
   </div>;
