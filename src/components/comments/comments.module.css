@@ -3,6 +3,31 @@
 }
 
 .title {
-    color: var(--newTextColor);
-    margin-bottom: ;
+    color: var(--strtextColor);
+    margin-bottom: 30px;
 }
+
+.write {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.input {
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 16px 20px;
+    background-color: var(--newTextColor);
+    color: var(--textColor2);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

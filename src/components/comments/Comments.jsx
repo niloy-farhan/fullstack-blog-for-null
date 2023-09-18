@@ -8,7 +8,7 @@ const Comments = () => {
             <h1 className={styles.title}>comments</h1>
             {status === "authenticated" ? (
                 <div className={styles.write}>
-                    <textarea placeholder="write a comment.."/>
+                    <textarea className={styles.input} placeholder="write a comment.."/>
                     <button className={styles.button}>Send</button>
                 </div>
             ): (
