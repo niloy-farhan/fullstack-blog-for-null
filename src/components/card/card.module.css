@@ -48,4 +48,5 @@
     color: var(--newTextColor);
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
+    font-weight: 300;
 }
