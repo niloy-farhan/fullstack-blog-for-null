@@ -14,7 +14,7 @@ const SinglePage = () => {
                 <div className={styles.textContainer}>
 
                            <span className={styles.date}>
-                                monday, september 18 2023
+                                monday, 18 september 2023
                             </span>
                         <h1 className={styles.title}> feature 1</h1>
 

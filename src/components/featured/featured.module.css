@@ -55,7 +55,7 @@
 
 
 .buttn:hover{
-    background-color: var(--hbrtextColor);
+    background-color: var(--strtextColor);
     color: var(--bg);
     transition: all 0.3s;
 }
