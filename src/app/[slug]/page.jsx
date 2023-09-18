@@ -6,24 +6,31 @@ const SinglePage = () => {
         <div className={styles.container}>
             <div className={styles.infoContainer}>
                 <div className={styles.textContainer}>
-                    <h1> feature 1</h1>
+                <span className={styles.date}>
+                                monday, september 18 2023
+                            </span>
+
+                    <h1 className={styles.title}> feature 1</h1>
                     <div className={styles.user}>
                         <div className={styles.userImageContainer}>
-                            <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
+                            <Image src="/p1.jpeg" alt="" fill className={styles.avatar}/>
                         </div>
-                        <div className={styles.userTextContainer}>
+                        <a href="https://twitter.com/MrFarhanNiloy" target="_blank">
+                            <div className={styles.userTextContainer}>
                             <span className={styles.username}>
                                 null
                             </span>
-                            <span className={styles.date}>
-                                01.01.2023
+                                <span className={styles.lin}>
+                                @niloy-farhan
                             </span>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div className={styles.imageContainer}>
-                    <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
-                </div>
+
+            </div>
+            <div className={styles.imageContainer}>
+                <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
             </div>
             <div className={styles.content}>
                 <div className={styles.post}>
