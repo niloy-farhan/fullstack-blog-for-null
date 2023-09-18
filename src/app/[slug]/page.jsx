@@ -5,18 +5,19 @@ const SinglePage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.infoContainer}>
+                <a href="/" className={styles.top}>
+                    <div className={styles.back}>
+
+                        <p><span className={styles.baack}>&#8617;</span> back to home</p>
+                    </div>
+                </a>
                 <div className={styles.textContainer}>
-                    <a href="/" className={styles.top}>
-                        <div className={styles.back}>
 
-                            <p><span className={styles.baack}>&#8617;</span> back to home</p>
-                        </div>
-                    </a>
-
-                <span className={styles.date}>
+                           <span className={styles.date}>
                                 monday, september 18 2023
                             </span>
-                    <h1 className={styles.title}> feature 1</h1>
+                        <h1 className={styles.title}> feature 1</h1>
+
                     <div className={styles.user}>
                         <div className={styles.userImageContainer}>
                             <Image src="/p1.jpeg" alt="" fill className={styles.avatar}/>

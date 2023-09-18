@@ -3,13 +3,12 @@
 }
 
 .infoContainer {
-    display: flex;
     align-items: center;
     gap: 50px;
 }
 
 .textContainer {
-    flex: 1;
+    margin-top: 50px;
 }
 
 .title{
@@ -45,7 +44,7 @@
     cursor: pointer;
     display: flex;
     color: var(--textColor2);
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: initial;
     text-weight: 400;
 }
@@ -53,7 +52,7 @@
 .baack {
     cursor: pointer;
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 15px;
     gap: 4px;
 }
 
@@ -63,7 +62,7 @@
 }
 
 .top {
-    margin-bottom: 50px;
+    margin: 10px;
 }
 
 .lin {
