@@ -1,4 +1,5 @@
 
+
 .post {
     border-radius: 7px;
     margin-bottom: 20px;
@@ -12,6 +13,7 @@
 }
 
 .date{
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: gray;
     margin-bottom: 20px;
@@ -40,4 +42,10 @@
 .button:hover {
     background-color: #6666;
     color: white;
+}
+
+.blogpostContent {
+    color: var(--newTextColor);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
 }

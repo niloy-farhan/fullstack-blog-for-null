@@ -16,6 +16,7 @@
 }
 
 .text {
+    line-height: 1.45em;
     text-transform: lowercase;
     display: flex;
     flex: 1;

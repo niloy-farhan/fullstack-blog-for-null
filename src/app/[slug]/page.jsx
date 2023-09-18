@@ -41,7 +41,16 @@ const SinglePage = () => {
             </div>
             <div className={styles.content}>
                 <div className={styles.post}>
+                    <div className={styles.description}>
+                        <p>
+                            While Windscribe’s free plan includes a variety of capabilities, it does have some restrictions in comparison to the premium subscriptions. The amount of available server locations and the monthly data cap are some of these restrictions. You can think about upgrading to one of Windscribe’s subscription plans if you want unlimited data consumption and access to more features.
+                        </p>
+                        <br/>
+                        <h1>hello</h1>
+                        <br/>
+                        <p>While Windscribe’s free plan includes a variety of capabilities, it does have some restrictions in comparison to the premium subscriptions. The amount of available server locations and the monthly data cap are some of these restrictions. You can think about upgrading to one of Windscribe’s subscription plans if you want unlimited data consumption and access to more features.</p>
 
+                    </div>
                 </div>
 
             </div>
