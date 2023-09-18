@@ -21,6 +21,14 @@
     border-radius: 5px;
 }
 
+.comments {
+    margin-top: 50px;
+}
+
+.comment {
+    margin-bottom: 50px;
+}
+
 .button {
     padding: 16px 20px;
     background-color: var(--newTextColor);
@@ -31,3 +39,37 @@
     cursor: pointer;
 }
 
+.image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+color: ar(--textColor2);
+}
+
+.username {
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12.5px;
+    color: var(--textColor2);
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--newTextColor)
+}

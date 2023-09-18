@@ -11,10 +11,10 @@
     margin-top: 50px;
 }
 
-.title{
+.title {
     margin-top: 20px;
-    font-size: 64px;
     margin-bottom: 50px;
+    font-size: 45px;
 }
 
 .user{
@@ -101,4 +101,11 @@
     font-weight: 300;
     line-height: 1.6em;
     font-size: 15.9px;
+}
+
+
+@media screen and (width=640px) {
+    .title {
+        font-size: 30px;
+    }
 }
