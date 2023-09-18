@@ -73,3 +73,14 @@ color: ar(--textColor2);
     font-weight: 300;
     color: var(--newTextColor)
 }
+
+@media screen and (max-width: 640px) {
+    .username {
+        font-size: 14px;
+    }
+
+    .date {
+        font-size: 12px;
+        color: var(--textColor2);
+    }
+}
