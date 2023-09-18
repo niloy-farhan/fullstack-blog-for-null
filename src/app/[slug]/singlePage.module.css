@@ -41,15 +41,40 @@
     gap: 1px;
 }
 
+.back {
+    cursor: pointer;
+    display: flex;
+    color: var(--textColor2);
+    font-size: 14px;
+    letter-spacing: initial;
+    text-weight: 400;
+}
+
+.baack {
+    cursor: pointer;
+    margin-top: 4px;
+    font-size: 20px;
+    gap: 4px;
+}
+
+.back:hover {
+    color: var(--textColor);
+
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
 .lin {
     color: var(--textColor2);
     font-size: 12px;
 }
 
 .date {
+    margin-top: 50px;
     color: var(--textColor2);
     font-size: 14px;
-    font-weight: lighter;
     letter-spacing: initial;
     text-weight: 400;
 }
