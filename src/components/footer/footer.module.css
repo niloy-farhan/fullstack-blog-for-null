@@ -15,6 +15,7 @@
     margin: 20px 0 0 50px;
 }
 
+
 .text {
     line-height: 1.45em;
     text-transform: lowercase;
@@ -25,6 +26,7 @@
     color: var(--textColor2);
     font-size: 14px;
 }
+
 
 
 .links {
@@ -41,22 +43,26 @@
 
 }
 
+.linkItem:hover{
+    color: white;
+    text-decoration: underline;
+    transition: .2s;
+}
 
 .list {
     margin: 20px 75px 0px 0px;
-    text-align: center;
+    text-align: left;
     color: var(--textColor2);
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
     font-weight: 300;
 }
 
 
 @media screen and (max-width: 640px) {
-    .text {
-        margin-right: 50px;
+    .listTitle{
+        margin-right: 20px;
     }
 }
 

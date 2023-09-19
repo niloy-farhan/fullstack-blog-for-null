@@ -14,27 +14,27 @@ const Footer = () => {
             <div className={styles.links}>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>tags</span>
-                    <Link href="/"></Link>
-                    <Link href="/">thoughts</Link>
-                    <Link href="/">article</Link>
-                    <Link href="/">infiltration</Link>
-                    <Link href="/">programs</Link>
-                    <Link href="/">projects</Link>
+                    <Link className={styles.linkItem} href="/"></Link>
+                    <Link className={styles.linkItem} href="/">thoughts</Link>
+                    <Link className={styles.linkItem} href="/">article</Link>
+                    <Link className={styles.linkItem} href="/">infiltration</Link>
+                    <Link className={styles.linkItem} href="/">programs</Link>
+                    <Link className={styles.linkItem} href="/">projects</Link>
 
                 </div>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>links</span>
-                    <Link href="/">home</Link>
-                    <Link href="/">about</Link>
-                    <Link href="/">contact</Link>
-                    <Link href="/">login</Link>
+                    <Link className={styles.linkItem} href="/" >home</Link>
+                    <Link className={styles.linkItem} href="/">about</Link>
+                    <Link className={styles.linkItem} href="/">contact</Link>
+                    <Link className={styles.linkItem} href="/">login</Link>
                 </div>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>networks</span>
-                    <Link href="/">github</Link>
-                    <Link href="/">linkedin</Link>
-                    <Link href="/">twitter</Link>
-                    <Link href="/">null</Link>
+                    <Link className={styles.linkItem} target="_blank" href="https://github.com/niloy-farhan">github</Link>
+                    <Link className={styles.linkItem} target="_blank" href="https://www.linkedin.com/in/niloy-farhan-6067b422b/">linkedin</Link>
+                    <Link className={styles.linkItem} target="_blank" href="https://twitter.com/MrFarhanNiloy">twitter</Link>
+                    <Link className={styles.linkItem} target="_blank" href="https://facebook.com/nulll.me">facebook</Link>
                 </div>
             </div>
         </div>
