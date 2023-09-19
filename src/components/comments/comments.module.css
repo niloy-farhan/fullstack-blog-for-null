@@ -83,4 +83,13 @@ color: ar(--textColor2);
         font-size: 12px;
         color: var(--textColor2);
     }
+
+    .divider {
+        margin: 50px 0 50px 0;
+    }
+}
+
+.divider {
+   border: .1px solid var(--textColor2);
+    margin: 60px 0 60px 0;
 }

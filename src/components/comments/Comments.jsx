@@ -5,6 +5,9 @@ const Comments = () => {
     const status = "authenticated";
     return (
         <div className={styles.container}>
+            <div className={styles.divider}>
+
+            </div>
             <h1 className={styles.title}>comments</h1>
             {status === "authenticated" ? (
                 <div className={styles.write}>
