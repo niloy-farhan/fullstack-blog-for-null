@@ -5,11 +5,10 @@ import React from "react";
 
 const Card = () => {
     return (
-
+        <Link href="/ss">
                 <article className={styles.post}>
-                    <Link href="/">
+
                         <h2 className={styles.title} >feature 1</h2>
-                    </Link>
 
                     <p className={styles.date} >January 1, 2021</p>
                     <p className={styles.blogpostContent} >
@@ -25,6 +24,7 @@ const Card = () => {
                     </p>
                     <button className={styles.button}><span><a href={"/"}>read more</a></span></button>
                 </article>
+        </Link>
 
     );
 }

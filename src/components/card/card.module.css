@@ -1,10 +1,19 @@
 
 
 .post {
+
     border-radius: 7px;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 60px;
+    padding: 100px;
     border: 0.01px solid var(--strtextColor);
+}
+
+.post:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    position: relative;
+    box-shadow: 10px 25px;
+    rotate: .4deg;
 }
 
 .title {
@@ -50,3 +59,35 @@
     line-height: 1.5em;
     font-weight: 300;
 }
+
+
+@media screen and (max-width: 1536px) {
+    .post {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .post {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .post {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .post {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .post {
+        padding: 20px;
+    }
+}
+
