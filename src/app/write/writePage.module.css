@@ -56,12 +56,18 @@
 
 .publish {
     position: absolute;
-    top: 30px;
-    right: 40px;
+    top: 80px;
+    right: 80px;
     padding: 10px 20px;
     border: none;
     background-color: #1a8917;
     color: white;
     cursor: pointer;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .publish {
+        right: 50px;
+    }
 }
