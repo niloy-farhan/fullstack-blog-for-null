@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import {ThemeContextProvider} from "@/context/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
+import Copyright from "@/components/copyright/Copyright";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
                     <Navbar/>
                     {children}
                 </div>
-                    <Footer/>
+                    <div >
+                        <Footer/>
+                    </div>
+
                 </div>
             </ThemeProvider>
         </ThemeContextProvider>
