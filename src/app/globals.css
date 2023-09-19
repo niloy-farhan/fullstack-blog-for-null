@@ -38,7 +38,7 @@ a{
     --bg: black;
     --textColor: #ededed;
     --textColor2: grey;
-    --strtextColor: #000000;
+    --strtextColor: white;
 
     --softBg: #1f273a;
     --softTextColor: #абаба6;
@@ -57,6 +57,7 @@ a{
     padding-left: 80px;
     padding-right: 80px;
 }
+
 
 @media screen and (max-width:1536px) {
     .wrapper {

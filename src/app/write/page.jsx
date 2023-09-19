@@ -37,6 +37,7 @@ const WritePage = () => {
                     placeholder="Write your article...."
                 />
             </div>
+            <button className={styles.publish}>Publish</button>
         </div>
     );
 };
