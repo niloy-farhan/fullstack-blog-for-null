@@ -93,3 +93,17 @@ a{
         padding-right: 40px;
     }
 }
+
+.ql-container {
+    font-size: 20px !important;
+    color: var(--textColor2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ql-editor .ql-placeholder {
+    color: var(--textColor2);
+}
+
+.quill > .ql-container > .qul-editor.ql-blank::before {
+    color: var(--newTextColor)
+}
