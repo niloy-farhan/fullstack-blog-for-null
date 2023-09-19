@@ -5,10 +5,10 @@ import {useState} from "react";
 const AuthLinks = () => {
 
     const [open, setOpen] = useState(false)
-   const status = "nothenticated";
+   const status = "auhenticated";
    return(
        <>
-           {status === "nothenticated" ? (
+           {status === "notauthenticated" ? (
                <Link href={"/login"} className={styles.link}>Login</Link>
            ):(
                <>
@@ -26,7 +26,7 @@ const AuthLinks = () => {
                    <Link href="/">Home</Link>
                    <Link href="/">About</Link>
                    <Link href="/">Contact</Link>
-                   {status === "nothenticated" ? (
+                   {status === "notauthenticated" ? (
                        <Link href={"/login"}>Login</Link>
                    ):(
                        <>
