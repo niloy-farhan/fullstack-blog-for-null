@@ -41,7 +41,6 @@
 
 .listTitle {
     font-weight: bold;
-
 }
 
 .linkItem:hover{
@@ -51,7 +50,7 @@
 }
 
 .list {
-    margin: 20px 75px 0px 0px;
+    margin: 20px   130px 0px 0px;
     text-align: left;
     color: var(--textColor2);
     display: flex;
@@ -80,7 +79,6 @@
 
     .links {
         margin-right: 50px;
-        margin-left: 50px;
         width: 100%;
         justify-content: space-between;
     }
@@ -98,7 +96,6 @@
 
     .links {
         margin-right: 50px;
-        margin-left: 50px;
         width: 100%;
         justify-content: space-between;
     }
@@ -115,10 +112,23 @@
     }
     .links {
         margin-right: 50px;
-        margin-left: 50px;
         width: 100%;
         justify-content: space-between;
     }
+}
+
+@media screen and (max-width: 1766px) {
+    .list{
+        margin: 20px 90px 0px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1536px) {
+    .list{
+        margin: 20px 70px 0px 0px;
+    }
+
 }
 
 
