@@ -42,7 +42,7 @@ const Footer = () => {
                     <Link className={styles.linkItem} target="_blank" href="https://facebook.com/nulll.me"><ImFacebook2/> facebook</Link>
                 </div>
             </div>
-            <div>
+            <div className={styles.copyright}>
                 <Copyright/>
             </div>
         </div>

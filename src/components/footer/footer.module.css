@@ -59,6 +59,9 @@
     font-weight: 300;
 }
 
+.copyright {
+    margin-right: 50px;
+}
 
 @media screen and (max-width: 640px) {
     .listTitle{
