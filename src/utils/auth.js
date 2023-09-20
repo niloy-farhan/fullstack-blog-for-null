@@ -3,11 +3,11 @@ import GoogleProvider from "next-auth/providers/google";
 
 export const authOptions = {
     providers: [
-        GithubProvider({
+        GoogleProvider({
             clientId: process.env.GOOGLE_ID,
             clientSecret: process.env.GOOGLE_SECRET,
         }),
-        GoogleProvider({
+        GithubProvider({
             clientId: process.env.GITHUB_ID,
             clientSecret: process.env.GITHUB_SECRET,
         }),
