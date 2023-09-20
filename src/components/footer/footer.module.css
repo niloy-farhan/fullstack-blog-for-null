@@ -26,6 +26,7 @@
     margin: 13px 20px 0 50px;
     color: var(--textColor2);
     font-size: 14px;
+    padding-right: 50px;
 }
 
 
@@ -35,6 +36,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    margin-left: 50px;
 
 }
 
@@ -81,6 +83,7 @@
         margin-right: 50px;
         width: 100%;
         justify-content: space-between;
+        padding-right: 20px;
     }
 }
 
