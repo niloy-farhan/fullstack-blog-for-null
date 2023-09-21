@@ -12,10 +12,10 @@ datasource db {
 
 model Account {
   id                 String  @id @default(cuid()) @map("_id")
-  userId             String  @map("user_id")
+  userId             String
   type               String
   provider           String
-  providerAccountId  String  @map("provider_account_id")
+  providerAccountId  String
   refresh_token      String?
   access_token       String?
   expires_at         Int?
@@ -32,8 +32,8 @@ model Account {
 
 model Session {
   id           String   @id @default(cuid()) @map("_id")
-  sessionToken String   @unique @map("session_token")
-  userId       String   @map("user_id")
+  sessionToken String   @unique
+  userId       String
   expires      DateTime
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -44,7 +44,7 @@ model User {
   id            String    @id @default(cuid()) @map("_id")
   name          String?
   email         String?   @unique
-  emailVerified DateTime? @map("email_verified")
+  emailVerified DateTime?
   image         String?
   accounts      Account[]
   sessions      Session[]
@@ -58,5 +58,44 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
-  @@map("verificationtokens")
+
+}
+
+
+model Category {
+  id    String  @id @default(auto()) @map("_id")
+  slug  String  @unique
+  title String
+  img   String?
+  posts Post[]  // Corrected the relation name to "posts" and added the type
+}
+
+model Post {
+  id         String   @id @default(auto()) @map("_id")
+  slug       String   @unique
+  title      String
+  desc       String
+  img        String?
+  views      Int      @default(0)
+  catSlug    String
+  category   Category @relation(fields: [catSlug], references: [slug])
+  userEmail  String
+  user       User     @relation(fields: [userEmail], references: [email])
+  comments   Comment[]
+}
+
+
+model Comment {
+  id String @id @default(cuid()) @map("_id")
+  createdAt DateTime@default(now())
+  desc string
+  userEmail string
+  user User @relation(fields: [userEmail], references: [email])
+  postSlug String
+  post Post @relation(fields: [postSlug], references: [slug])
+}
+
+model User {
+  email String @id
+  posts Post[]
 }
