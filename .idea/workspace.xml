@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adfefef5-6e1d-4461-855f-08433283ddb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/next-blog/src/utils/connect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-blog" beforeDir="false" afterPath="$PROJECT_DIR$/next-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next-blog/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/next-blog/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-blog/src/components/authLinks/AuthLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/next-blog/src/components/authLinks/AuthLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-blog/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-blog/src/utils/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <workItem from="1695114710245" duration="7473000" />
       <workItem from="1695132463828" duration="16202000" />
       <workItem from="1695202842547" duration="11316000" />
-      <workItem from="1695308750452" duration="2898000" />
+      <workItem from="1695308750452" duration="5106000" />
     </task>
     <servers />
   </component>
