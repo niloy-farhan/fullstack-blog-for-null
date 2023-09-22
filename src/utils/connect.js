@@ -2,16 +2,13 @@ import { PrismaClient } from '@prisma/client';
 
 let prisma;
 
-export default async function getPrismaClient() {
-    if (!prisma) {
-        try {
-            prisma = new PrismaClient();
-
-        } catch (error) {
-            console.error('Error initializing Prisma client:', error);
-            throw error;
-        }
+if (process.env.NODE_ENV === 'production') {
+    prisma = new PrismaClient()
+} else {
+    if (!global.prisma) {
+        global.prisma = new PrismaClient()
     }
-
-    return prisma;
+    prisma = global.prisma
 }
+
+export default prisma

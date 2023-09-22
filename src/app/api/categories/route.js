@@ -1,20 +1,16 @@
 import { NextResponse } from "next/server";
-import getPrismaClient from "@/utils/connect";
+import prisma from "@/utils/connect";
+
 
 export const GET = async () => {
     try {
-        const categories = await getPrismaClient.category.findMany();
+        const categories = await prisma.category.findMany();
 
-        return new NextResponse(
-            JSON.stringify(categories),
-            { status: 200 }
-        );
-
+        return new NextResponse(JSON.stringify(categories, { status: 200 }));
     } catch (err) {
         console.error(err);
         return new NextResponse(
-            JSON.stringify({ message: "Something went wrong!" }),
-            { status: 500 }
+            JSON.stringify({ message: "Something went wrong!" }, { status: 500 })
         );
     }
-}
+};
